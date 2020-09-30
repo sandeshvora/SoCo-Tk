@@ -7,7 +7,8 @@ logging.basicConfig(format='%(asctime)s %(levelname)10s: %(message)s', level = l
 import tkMessageBox
 import urllib
 import base64
-import platform, os
+import platform
+import os
 import StringIO as sio
 
 import sqlite3 as sql
